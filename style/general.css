@@ -1,0 +1,76 @@
+/* COLORS
+    #1A120B
+    #3C2A21
+    #D5CEA3
+    #E5E5CB
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+head{
+    width: 100%;
+    height: auto;
+    background-color: #1A120B;
+    color: #E5E5CB;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 4em;
+    padding-bottom: 1em;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 4em;
+}
+
+nav a{
+    margin-left: 10px;
+}
+
+.imgSec-item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.imgSec-item img{
+    width: 200px;
+    height: 200px;
+}
+
+.imgSec-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe-section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

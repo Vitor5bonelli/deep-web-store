@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <script src="../scripts/form-script.js"></script>
+    <title>Deep Web Market - Contact Us!</title>
 </head>
 <body>
-    <head></head>
-    <main></main>
-    <footer></footer>
+    <head>
+        <header>
+            <h1>Deep Web Market</h1>
+            <span>100% real, live animals</span>
+        </header>
+
+        <nav>
+            <a href="./index.html" target="_blank"><b>Home</b></a>
+            <a href="./products.html" target="_blank"><b>Products</b></a>
+        </nav>
+    </head>
+
+    <main>
+        <h2>Talk with us!!!</h2>
+
+        <form>
+            <div class="container-input">
+                <label><b>Nome</b></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="container-input">
+                <label><b>Email</b></label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="container-input">
+                <label><b>Endereço</b></label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+
+            <div class="container-input">
+                <label><b>Cartão de Crédito + Nº de Segurança</b></label>
+                <input type="text" name="credicard" id="credicard">
+            </div>
+
+            <button onclick="validaInfo()"><b>Enviar!</b></button>
+        </form>
+
+        <span id="exibe-texto" style="display: none;">zap zap</span>
+    </main>
+
+    <footer>
+        <span>Made for a web dev class<br><b>Vitor Bonelli</b> | 2023 </span>
+        <span class="copyright-footer">All rights reserved to me,<br><b>MUAHAHA!</b></span>
+    </footer>
 </body>
 </html>
